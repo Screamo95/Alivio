@@ -1,0 +1,29 @@
+/* Global */
+* {
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1400px) {
+  .global__container {
+    width: 1140px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .global__container {
+    width: 960px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .global__container {
+    width: 720px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .global__container {
+    width: 540px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .global__container {
+    width: 280px;
+  }
+}
