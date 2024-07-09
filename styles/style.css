@@ -339,6 +339,135 @@
   }
 }
 
+/* Video */
+.video {
+  background: #245852;
+  padding-top: 225px;
+  padding-bottom: 177px;
+}
+.video__container {
+  max-width: 1507px;
+  margin: 0 auto;
+}
+.video__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.video__content {
+}
+.video__content-title {
+  font-family: Geo_Bold;
+  font-size: 50px;
+  line-height: 157%;
+  color: #fff;
+  max-width: 570px;
+  margin-bottom: 32px;
+}
+.video__content-subtitle {
+  font-family: Lato_SemiBold;
+  font-size: 25px;
+  line-height: 157%;
+  color: #fff;
+  max-width: 550px;
+  margin-bottom: 58px;
+}
+.video__content-btn {
+  border: 1px solid #01996d;
+  border-radius: 4px;
+  width: 240px;
+  height: 65px;
+  background: #01996d;
+  font-family: Lato_Regular;
+  font-size: 20px;
+  line-height: 125%;
+  color: #fff;
+  cursor: pointer;
+}
+.video__box {
+  width: 896px;
+  height: 517px;
+  position: relative;
+}
+.video__box-main {
+  width: 896px;
+  height: 517px;
+}
+.video__box-icon {
+  position: absolute;
+  top: 219px;
+  left: 410px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1550px) {
+  .video__inner {
+    flex-direction: column;
+  }
+  .video__content {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 992px) {
+  .video {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .video__box {
+    width: 650px;
+    height: auto;
+  }
+  .video__box-main {
+    width: 650px;
+    height: auto;
+  }
+  .video__box-icon {
+    top: 150px;
+    left: 295px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .video__box {
+    width: 520px;
+  }
+  .video__box-main {
+    width: 520px;
+  }
+  .video__box-icon {
+    top: 110px;
+    left: 225px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .video {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .video__content-title {
+    font-size: 30px;
+  }
+  .video__content-subtitle {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .video__content-btn {
+    width: 180px;
+    height: 45px;
+    font-size: 16px;
+  }
+  .video__box {
+    width: 240px;
+  }
+  .video__box-main {
+    width: 240px;
+  }
+  .video__box-icon {
+    top: 47px;
+    left: 104px;
+    width: 40px;
+  }
+}
 
 
 
